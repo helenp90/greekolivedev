@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //rendering the html page
 
-app.get('/', function(req, res){
+app.use('/', function(req, res){
     res.render('./public/index');
 });
 //=============>End Middleware

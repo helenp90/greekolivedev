@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   //Side-nav
   var elem = document.querySelector('.sidenav');
-  var instance = M.Sidenav.init(elem, options);
+  // var instance = M.Sidenav.init(elem, options);
 
   // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
   // var collapsibleElem = document.querySelector('.collapsible');
