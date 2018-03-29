@@ -23,6 +23,6 @@ app.use('/', function(req, res){
 });
 //=============>End Middleware
 
-app.listen(3000, function(){
+app.listen(port, function(){
     console.log('Server starting on Port 3000');
 })
